@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: darshit-service
+  title: darshit-service
+  annotations:
+    backstage.io/kubernetes-id: darshit-service
+spec:
+  type: service
+  system: system:default/hello-world
+  lifecycle: experimental
+  owner: user:default/dhedpara
