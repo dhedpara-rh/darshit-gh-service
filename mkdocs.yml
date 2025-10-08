@@ -1,0 +1,22 @@
+site_name: 'darshit-gh-service Documentation'
+site_description: 'Documentation for darshit-gh-service'
+repo_url: https://github.com/dhedpara-rh/darshit-gh-service
+edit_uri: edit/main/docs
+
+# Directory containing the documentation source files
+docs_dir: docs
+
+plugins:
+  - techdocs-core
+
+# Customize the navigation structure below
+nav:
+  - Home: index.md
+  - Customize:
+      - Navigation: navigation.md
+      - mkdocs.yml Customization: customization.md
+  - Troubleshooting: troubleshooting.md
+  - FAQ: faq.md
+  # Add more pages as needed:
+  # - Architecture: architecture.md
+  # - API Reference: api-reference.md
