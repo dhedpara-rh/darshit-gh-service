@@ -5,6 +5,7 @@ metadata:
   title: darshit-service
   annotations:
     backstage.io/kubernetes-id: darshit-service
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   system: system:default/hello-world
