@@ -5,7 +5,7 @@ metadata:
   title: darshit-service
   annotations:
     backstage.io/kubernetes-id: darshit-service
-    servicenow.com/appcode: APM0001001
+    servicenow.com/appcode: APM0001001X
 spec:
   type: service
   system: system:default/hello-world
