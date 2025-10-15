@@ -5,6 +5,7 @@ metadata:
   title: darshit-service
   annotations:
     backstage.io/kubernetes-id: darshit-service
+    servicenow.com/appcode: APM0001001
     backstage.io/techdocs-ref: url:https://github.com/skosina-test/devhub-hello-world-starter
 spec:
   type: service
