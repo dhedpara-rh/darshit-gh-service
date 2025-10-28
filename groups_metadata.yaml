@@ -25,4 +25,8 @@ group_metadata:
       backstage.io/techdocs-ref: "url:https://github.com/repo/333"
   rhdh-pai:
     annotations:
-      backstage.io/techdocs-ref: "url:https://github.com/repo/444"
+      backstage.io/techdocs-ref: "url:https://github.com/skosina-test/devhub-hello-world-starter"
+
+  darshit-test:
+    annotations:
+      backstage.io/techdocs-ref: "url:https://github.com/skosina-test/devhub-hello-world-starter"
