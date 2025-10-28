@@ -1,0 +1,28 @@
+# Optional metadata for Backstage group entities
+# This file allows adding annotations to groups that are synced from LDAP via groups.conf
+#
+# Format:
+# group_metadata:
+#   <group-name>:
+#     annotations:
+#       backstage.io/techdocs-ref: "url:https://github.com/org/repo/tree/main/docs"
+#
+# Example entries:
+
+group_metadata:
+  # Example: Group with TechDocs URL reference
+  team-savsingh:
+    annotations:
+      backstage.io/techdocs-ref: "url:https://github.com/CodeNectar/techdocs-example"
+  dprod-team-members:
+    annotations:
+      backstage.io/techdocs-ref: "url:https://github.com/repo/111"
+  it-ai-platforms:
+    annotations:
+      backstage.io/techdocs-ref: "url:https://github.com/repo/222"
+  team-itdep-financial-data-program:
+    annotations:
+      backstage.io/techdocs-ref: "url:https://github.com/repo/333"
+  rhdh-pai:
+    annotations:
+      backstage.io/techdocs-ref: "url:https://github.com/repo/444"
