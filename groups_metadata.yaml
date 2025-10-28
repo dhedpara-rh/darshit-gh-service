@@ -14,18 +14,3 @@ group_metadata:
   team-savsingh:
     annotations:
       backstage.io/techdocs-ref: "url:https://github.com/CodeNectar/techdocs-example"
-  dprod-team-members:
-    annotations:
-      backstage.io/techdocs-ref: "url:https://github.com/repo/111"
-  it-ai-platforms:
-    annotations:
-      backstage.io/techdocs-ref: "url:https://github.com/repo/222"
-  team-itdep-financial-data-program:
-    annotations:
-      backstage.io/techdocs-ref: "url:https://github.com/repo/333"
-  rhdh-pai:
-    annotations:
-      backstage.io/techdocs-ref: "url:https://github.com/repo/444"
-  darshit-test:
-    annotations:
-      backstage.io/techdocs-ref: "url:https://github.com/skosina-test/devhub-hello-world-starter"
