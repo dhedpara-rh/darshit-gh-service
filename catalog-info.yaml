@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: darshit-service
   title: darshit-service
+  description hey this my service
   annotations:
     backstage.io/kubernetes-id: darshit-service
     servicenow.com/appcode: "APM0001038"
