@@ -9,6 +9,10 @@ metadata:
     servicenow.com/appcode: "APM0001038"
     backstage.io/techdocs-ref: url:https://github.com/skosina-test/devhub-hello-world-starter
     backstage.io/source-location: url:https://github.com/dhedpara-rh/darshit-gh-service/blob/main/
+  links:
+    - title: Slack
+      url: https://redhat.enterprise.slack.com/archives/C06SX8L9RAQ
+      icon: chat
 spec:
   type: service
   system: system:default/hello-world
