@@ -8,7 +8,6 @@
 #       backstage.io/techdocs-ref: "url:https://github.com/org/repo/tree/main/docs"
 #
 # Example entries:
-
 group_metadata:
   # Example: Group with TechDocs URL reference
   team-savsingh:
