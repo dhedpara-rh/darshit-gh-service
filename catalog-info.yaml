@@ -1,20 +1,22 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: darshit-service
-  title: darshit-service
-  description: hey this my service updated v2
+  name: Darshit
+  title: Test
+  description: adas dasd ad asdas
   annotations:
-    backstage.io/kubernetes-id: darshit-service
-    servicenow.com/appcode: "APM0003659"
-    backstage.io/techdocs-ref: url:https://github.com/skosina-test/devhub-hello-world-starter
-    backstage.io/source-location: url:https://github.com/dhedpara-rh/darshit-gh-service/blob/main/
+    backstage.io/kubernetes-id: Darshit
+    backstage.io/techdocs-ref: dir:.
+    jira/project-key: 3123
+    jira/component: 123
+    jira/label: 123
   links:
-    - title: Slack
-      url: https://redhat.enterprise.slack.com/archives/C06SX8L9RAQ
-      icon: chat
+    - url: https://example.com/some/page
+      title: test
+      icon: feedback
+      type: asdasdasd
 spec:
   type: service
-  system: system:default/hello-world
+  system: system:default/devhub
   lifecycle: experimental
-  owner: user:default/dhedpara
+  owner: group:default/dhc-eng-admin
