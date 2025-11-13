@@ -6,8 +6,8 @@ metadata:
   description: hey this my service updated v2
   annotations:
     backstage.io/kubernetes-id: darshit-service
-    servicenow.com/appcode: "APM0003659"
-    backstage.io/techdocs-ref: url:https://github.com/skosina-test/devhub-hello-world-starter
+    servicenow.com/appcode: APM0003659
+    backstage.io/techdocs-ref: dir:.
     backstage.io/source-location: url:https://github.com/dhedpara-rh/darshit-gh-service/blob/main/
   links:
     - title: Slack
