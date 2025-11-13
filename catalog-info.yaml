@@ -1,20 +1,26 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: darshit-service
-  title: darshit-service
-  description: hey this my service updated v2
+  name: darshit-test
+  title: darshit testing
+  description: asdas dasd asdas d
   annotations:
-    backstage.io/kubernetes-id: darshit-service
-    servicenow.com/appcode: "APM0003659"
-    backstage.io/techdocs-ref: url:https://github.com/skosina-test/devhub-hello-world-starter
-    backstage.io/source-location: url:https://github.com/dhedpara-rh/darshit-gh-service/blob/main/
+    backstage.io/kubernetes-id: darshit-test
+    backstage.io/techdocs-ref: dir:.
+    it-homepage/service-category: networking-dns
+    it-homepage/service-url: https://devhub.corp.stage.redhat.com
+    it-homepage/service-icon: https://devhub.corp.redhat.com/api/proxy/homepage/service-icons/test.png
+    servicenow.com/appcode: 12312
+    jira/project-key: 123
+    jira/component: 123
+    jira/label: 123
   links:
-    - title: Slack
-      url: https://redhat.enterprise.slack.com/archives/C06SX8L9RAQ
-      icon: chat
+    - url: https://devhub.corp.redhat.com/api/proxy/homepage/service-icons
+      title: test
+      icon: extension
+      type: 123123
 spec:
   type: service
-  system: system:default/hello-world
+  system: system:default/devhub
   lifecycle: experimental
-  owner: user:default/dhedpara
+  owner: group:default/dhc-eng-admin
