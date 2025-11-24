@@ -1,20 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: darshit-service-github
-  title: darshit-service-github
-  description: hey this my service updated v2
+  name: test
+  title: test
+  description: adsasdasdas dasd ad asd asd asd asd 
   annotations:
-    backstage.io/kubernetes-id: darshit-service
-    servicenow.com/appcode: "APM0003659"
-    backstage.io/techdocs-ref: url:https://github.com/skosina-test/devhub-hello-world-starter
-    backstage.io/source-location: url:https://github.com/dhedpara-rh/darshit-gh-service/blob/main/
-  links:
-    - title: Slack
-      url: https://redhat.enterprise.slack.com/archives/C06SX8L9RAQ
-      icon: chat
+    backstage.io/kubernetes-id: test
+    backstage.io/techdocs-ref: dir:.
+    jira/project-key: test
+    jira/component: test
+    jira/label: test
+    pagerduty.com/service-id: testsetst
+    sonarqube.org/project-key: test
 spec:
   type: service
-  system: system:default/hello-world
+  system: system:default/akamai-cdn
   lifecycle: experimental
-  owner: user:default/dhedpara
+  owner: group:default/dhc-eng-admin
