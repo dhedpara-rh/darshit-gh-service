@@ -3,12 +3,15 @@ kind: Component
 metadata:
   name: darshit-service-github
   title: darshit-service-github
-  description: hey this my service updated v2
+  description: anything
   annotations:
     backstage.io/kubernetes-id: darshit-service
-    servicenow.com/appcode: "APM0003659"
+    servicenow.com/appcode: DTEST
     backstage.io/techdocs-ref: url:https://github.com/skosina-test/devhub-hello-world-starter
     backstage.io/source-location: url:https://github.com/dhedpara-rh/darshit-gh-service/blob/main/
+    it-homepage/service-category: networking-dns
+    it-homepage/service-url: https://github.com/dhedpara-rh/darshit-gh-service
+    it-homepage/service-icon: ttps://devhub.corp.redhat.com/api/proxy/homepage/service-icons/test.png
   links:
     - title: Slack
       url: https://redhat.enterprise.slack.com/archives/C06SX8L9RAQ
