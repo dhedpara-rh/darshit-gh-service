@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: darshit-service
-  title: darshit-service
+  name: darshit-service-github
+  title: darshit-service-github
   description: hey this my service updated v2
   annotations:
     backstage.io/kubernetes-id: darshit-service
