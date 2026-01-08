@@ -17,4 +17,4 @@ spec:
   type: service
   system: system:default/hello-world
   lifecycle: experimental
-  owner: user:default/dhedpara
+  owner: user:default/zziya
