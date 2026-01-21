@@ -7,7 +7,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: darshit-service
     servicenow.com/appcode: "APM0003659"
-    backstage.io/techdocs-ref: url:https://github.com/skosina-test/devhub-hello-world-starter
+    backstage.io/techdocs-ref: url:https://github.com/skosina-test/devhub-hello-world-starter/blob/main/
     backstage.io/source-location: url:https://github.com/dhedpara-rh/darshit-gh-service/blob/main/
   links:
     - title: Slack
