@@ -6,7 +6,7 @@ metadata:
   description: hey this my service updated v2
   annotations:
     backstage.io/kubernetes-id: darshit-service
-    servicenow.com/appcode: LLM-001
+    servicenow.com/appcode: DEVH-001
     backstage.io/techdocs-ref: url:https://github.com/skosina-test/devhub-hello-world-starter/blob/main/
     backstage.io/source-location: url:https://github.com/dhedpara-rh/darshit-gh-service/blob/main/
   links:
