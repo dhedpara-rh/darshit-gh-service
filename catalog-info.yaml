@@ -12,7 +12,10 @@ metadata:
     jira/jql: >-
       Team in (ec74d716-af36-4b3c-950f-f79213d08f71-4403)
       and statusCategory != Done
-      ORDER BY updatedDate DESC
+    # jira/jql: >-
+    #   Team in (ec74d716-af36-4b3c-950f-f79213d08f71-4403)
+    #   and statusCategory != Done
+    #   ORDER BY updatedDate DESC
     backstage.io/techdocs-ref: url:https://github.com/skosina-test/devhub-hello-world-starter/blob/main/
     backstage.io/source-location: url:https://github.com/dhedpara-rh/darshit-gh-service/blob/main/
   links:
