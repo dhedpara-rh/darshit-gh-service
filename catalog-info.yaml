@@ -26,5 +26,5 @@ metadata:
 spec:
   type: service
   system: system:default/hello-world
-  lifecycle: experimental
+  lifecycle: production
   owner: user:default/dhedpara
