@@ -13,7 +13,7 @@ metadata:
     # jira/all-issues-jql: project in (RHIDP, RHDHBUGS, RHDHSUPP) and Team in (ec74d716-af36-4b3c-950f-f79213d08f71-4403) and statusCategory != Done ORDER BY updatedDate DESC
     # new plugins
     jira/project-key: RHIDP,RHDHBUGS,RHDHSUPP
-    jira/component: "Dynamic PLugins"
+    jira/components: "Dynamic PLugins", "Quality"
     jira/jql: >-
       Team in (ec74d716-af36-4b3c-950f-f79213d08f71-4403)
       and statusCategory != Done
